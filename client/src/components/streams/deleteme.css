@@ -1,0 +1,43 @@
+.pwContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 204px;
+  border: black 2px solid;
+  border-radius: 20px;
+}
+
+.pwBox {
+  height: 100px;
+  width: 100px;
+  border: black 1px dashed;
+  border-radius: 18px;
+}
+
+#pwRed {
+  background-color: red;
+  align-self: flex-end;
+}
+
+#pwGreen {
+  background-color: green;
+  align-self: center;
+}
+
+#pwBlue {
+  background-color: blue;
+}
+
+.pwFloater {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  bottom: 100px;
+  /* width: 80px;
+  height: 80px; */
+  background-color: sandybrown;
+  border-radius: 18px;
+  opacity: 50%;
+  margin: 10px;
+  border: 1px black dotted;
+}
